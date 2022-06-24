@@ -1,6 +1,6 @@
 {
   "request_id": "220624074220_d31ec686-0792-544f-9422-df8c8074a536",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "df93b7fc-6a2d-4703-8cf4-97976feef19a",
     "source_settings": {
@@ -34,5 +34,48 @@
     }
   },
   "created_at": "2022-06-24T07:42:20.091463+00:00",
-  "_signature": "0btMMs0j77MIFp7NKkg/NSQhzXA/MC0Zz71Njr8N+UGys2oJ7se81vDNJiNFTy2Jh2nO6LbzgIUpUBPve4dQAg=="
+  "finished_at": "2022-06-24T07:42:55.598513+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-24T07:42:55.598407+00:00",
+    "row_count": 38,
+    "current_import_row_count": 38,
+    "size_in_bytes": 4096,
+    "external_id": "01a5282e-0101-4b88-0001-2c9200360eea",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "daily_budget",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "budget_remaining",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220624074220_d31ec686-0792-544f-9422-df8c8074a536",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220624074220_d31ec686-0792-544f-9422-df8c8074a536"
+  },
+  "_signature": "FbbdiNHrBgzXSPOj2pqF1slPh3W/+iMYcQia3d9QdNuVf5ZWsSA63rgzWJFp3rd7GX7Ha0ehsR+aeghy0uouCg=="
 }
